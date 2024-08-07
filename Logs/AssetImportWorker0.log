@@ -1,0 +1,1887 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.28f1 (6bae5ce6b222) revision 7056988'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16338 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.28f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/School/Ing/RP2-DP/RP2-DP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51533
+Successfully changed project path to: D:/School/Ing/RP2-DP/RP2-DP
+D:/School/Ing/RP2-DP/RP2-DP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6608] Host "[IP] 192.168.0.127 [Port] 0 [Flags] 2 [Guid] 1507161092 [EditorId] 1507161092 [Version] 1048832 [Id] WindowsEditor(7,iZovansWin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6608] Host "[IP] 192.168.0.127 [Port] 0 [Flags] 2 [Guid] 1507161092 [EditorId] 1507161092 [Version] 1048832 [Id] WindowsEditor(7,iZovansWin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.28f1 (6bae5ce6b222)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/School/Ing/RP2-DP/RP2-DP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA TITAN X (Pascal) (ID=0x1b00)
+    Vendor:   NVIDIA
+    VRAM:     12126 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014177 seconds.
+- Loaded All Assemblies, in  0.408 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 723ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.633 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (634ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3251 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3711.
+Memory consumption went from 124.1 MB to 124.0 MB.
+Total: 3.722400 ms (FindLiveObjects: 0.496500 ms CreateObjectMapping: 0.258500 ms MarkObjects: 2.850200 ms  DeleteObjects: 0.115400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1145.909232 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpSession.cs
+  artifactKey: Guid(8ac92122c5177044b9f9be183cb17c33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpSession.cs using Guid(8ac92122c5177044b9f9be183cb17c33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28c9c38ca282e655e9dba4e8fe6080ff') in 0.098328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/de.bearo.restserver/Samples/Debug.prefab
+  artifactKey: Guid(727516d41236b4963b63126c015e655d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/Debug.prefab using Guid(727516d41236b4963b63126c015e655d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7216fb3e0968ff9a18621c65a6c26c68') in 0.036570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WsServer.cs
+  artifactKey: Guid(a41d80eb3924af043bccef668eff51e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WsServer.cs using Guid(a41d80eb3924af043bccef668eff51e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96017dc8ae96aa084e05d65276b4fbf9') in 0.009840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/de.bearo.restserver/README.md
+  artifactKey: Guid(f3d227d639184f8d97400223d65df787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/README.md using Guid(f3d227d639184f8d97400223d65df787) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebf4ed441b783c77235da6e36d5f44ae') in 0.013945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WsClient.cs
+  artifactKey: Guid(5011dd29c5dfcde48834bc7e8a842ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WsClient.cs using Guid(5011dd29c5dfcde48834bc7e8a842ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '168e02de3a454c539b8e0bfa622ea12d') in 0.009201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/de.bearo.restserver/Runtime/WebSocket/WSEndpointId.cs
+  artifactKey: Guid(fb8a6d0192b6481d9e4e5456abc26912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/WebSocket/WSEndpointId.cs using Guid(fb8a6d0192b6481d9e4e5456abc26912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '267f4c1fb59820cac918aff8bd5bfd12') in 0.009100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/de.bearo.restserver/Runtime/EndpointCollection.cs
+  artifactKey: Guid(99f96278b56d473faea26f01cd7b405a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/EndpointCollection.cs using Guid(99f96278b56d473faea26f01cd7b405a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f253d3ab543b3c11108406bcf249ea7') in 0.009073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/de.bearo.restserver/Runtime/StaticContentBuilder.cs
+  artifactKey: Guid(292055a3b9c04dc79b4dedd3e1db1f33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/StaticContentBuilder.cs using Guid(292055a3b9c04dc79b4dedd3e1db1f33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4af1b33800b8c6675b646ffeaa26c41') in 0.009627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/UdpServer.cs
+  artifactKey: Guid(305fbfab67b69ac408a6893784cd0b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/UdpServer.cs using Guid(305fbfab67b69ac408a6893784cd0b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '871002faea39b2cf95aa5f61b23d75d8') in 0.009860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/de.bearo.restserver/Editor/Inspector/RestServerInspector.cs
+  artifactKey: Guid(8acfac50c9c14e1993af91844dd32803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/Inspector/RestServerInspector.cs using Guid(8acfac50c9c14e1993af91844dd32803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67662405e0866365e970b015d7556537') in 0.008603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/SslClient.cs
+  artifactKey: Guid(bd646be310d2c8d4995030d4fd7bfb0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/SslClient.cs using Guid(bd646be310d2c8d4995030d4fd7bfb0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48733270003ba82d5bfda85c8d54dce3') in 0.009121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/MaterialAutoEndpointImpl.cs
+  artifactKey: Guid(0f889cdc80d3415eaabe4cd6488fd402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/MaterialAutoEndpointImpl.cs using Guid(0f889cdc80d3415eaabe4cd6488fd402) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9080b3ab6348605f6049c6e86f7fb29e') in 0.010462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/de.bearo.restserver/Runtime/MultipartFormData/SimpleHeaderValueParser.cs
+  artifactKey: Guid(f8e4f488554848689f84bf73290d0b3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/MultipartFormData/SimpleHeaderValueParser.cs using Guid(f8e4f488554848689f84bf73290d0b3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9dbedb4b2b894853ef8d77a7f6ca8827') in 0.009264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/SslContext.cs
+  artifactKey: Guid(a09913540e4df994390ca859c6ba715d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/SslContext.cs using Guid(a09913540e4df994390ca859c6ba715d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '388d1a3bc36f73c7c899fb6132345020') in 0.009353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/UdpClient.cs
+  artifactKey: Guid(a4e401aea5114814882f277cec6888c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/UdpClient.cs using Guid(a4e401aea5114814882f277cec6888c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3768f7a1bcb973572f42c8686ad5fa50') in 0.009590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/de.bearo.restserver/Runtime/PathParam.cs
+  artifactKey: Guid(8a3a6244dc0e4d80857bdfd151c14fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/PathParam.cs using Guid(8a3a6244dc0e4d80857bdfd151c14fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf96e14f679564c02a568885c084171b') in 0.009095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpClient.cs
+  artifactKey: Guid(06376f15e376d8943ab7aaae7da052c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpClient.cs using Guid(06376f15e376d8943ab7aaae7da052c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '862f845a8397a38d087e7f9492af1f04') in 0.008571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/HttpRequestRedirectHelper.cs
+  artifactKey: Guid(fb80cf34e16b47a196c50b500fb7e949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/HttpRequestRedirectHelper.cs using Guid(fb80cf34e16b47a196c50b500fb7e949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8fdfdf41bc2a36dffde18eacde8c9744') in 0.009515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpUtility.cs
+  artifactKey: Guid(e3e0fbb634ad4f53bdd16ec4f32f1715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpUtility.cs using Guid(e3e0fbb634ad4f53bdd16ec4f32f1715) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e806e2f8c711e2e4d42591d43da0b6b0') in 0.009105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/de.bearo.restserver/Runtime/StaticContentHandler.cs
+  artifactKey: Guid(ec71bec4d8244171836e91fbc7119f0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/StaticContentHandler.cs using Guid(ec71bec4d8244171836e91fbc7119f0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42c6403832c7433fc5d23635fc2001f5') in 0.009214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/RestServerDebugBehaviour.cs
+  artifactKey: Guid(55d0115e9c0443feac8562d9a8ff9fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/RestServerDebugBehaviour.cs using Guid(55d0115e9c0443feac8562d9a8ff9fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1b82acd7abc357ca611de24c0b8d965') in 0.009749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WssSession.cs
+  artifactKey: Guid(306bf437c6f057345831a3b5521ecf69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WssSession.cs using Guid(306bf437c6f057345831a3b5521ecf69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd7c047143357a9a8bc56a7443ddc1e3') in 0.008502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/InterlockExample.unity
+  artifactKey: Guid(33947cb458073c143b01c5791a1fe398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/InterlockExample.unity using Guid(33947cb458073c143b01c5791a1fe398) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71e533b951ab9035f1e60293b556f5b0') in 0.008270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/SslServer.cs
+  artifactKey: Guid(10b33268b7ce4e04297cf1de15fa7b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/SslServer.cs using Guid(10b33268b7ce4e04297cf1de15fa7b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38204c6016de80d782ffe081be7466e3') in 0.009989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpServer.cs
+  artifactKey: Guid(1aedca39afc5d1a4c84659cc8d5f47e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpServer.cs using Guid(1aedca39afc5d1a4c84659cc8d5f47e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4759f6496791989f141f73a1f5683fab') in 0.008837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/MethodAutoEndpoint.cs
+  artifactKey: Guid(46e098182ca542eb8dfb12130251df93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/MethodAutoEndpoint.cs using Guid(46e098182ca542eb8dfb12130251df93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63d7bb30a59f23c1155dbe742c8cd92b') in 0.008763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/de.bearo.restserver/Runtime/RestServer.cs
+  artifactKey: Guid(a3852ddc190a47ccbbb443806995aa25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/RestServer.cs using Guid(a3852ddc190a47ccbbb443806995aa25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e05aa3e549b1ffe3d475ea942db03b5') in 0.009721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/CICD.cs
+  artifactKey: Guid(87660be17fa54f6b9fb152c08ad27ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/CICD.cs using Guid(87660be17fa54f6b9fb152c08ad27ea3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '878b3fcc782ac8d25029912af63377e3') in 0.009110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/de.bearo.restserver/Samples/BinaryResponse/Nyan_cat_250px_frame.png
+  artifactKey: Guid(758b1c6074424024096ec2e4d96869ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/BinaryResponse/Nyan_cat_250px_frame.png using Guid(758b1c6074424024096ec2e4d96869ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a60ba8e0b403393980b3e71e1d96f730') in 0.061970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/de.bearo.restserver/Editor/de.bearo.restserver.Editor.asmdef
+  artifactKey: Guid(5da45b3a14df46c398ffdeab019f0e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/de.bearo.restserver.Editor.asmdef using Guid(5da45b3a14df46c398ffdeab019f0e3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '287654fe856673a7bbdb1e1477fe9af1') in 0.015515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/de.bearo.restserver/Runtime/SpecialHandlers.cs
+  artifactKey: Guid(d9f9f95aaf034c658883d785fc805f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/SpecialHandlers.cs using Guid(d9f9f95aaf034c658883d785fc805f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6355608d24641656df458a64a2e0ca04') in 0.008677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpRequest.cs
+  artifactKey: Guid(b07bae4f29a6b60408a6ee19c145df0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpRequest.cs using Guid(b07bae4f29a6b60408a6ee19c145df0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '14fa6291f7c9f1c0fac6b642a985a8b7') in 0.009535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '305fcdcc6c112262d24c49ef5e1f1dcb') in 0.007694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/de.bearo.restserver/Runtime/MultipartFormData/BoyerMooreSearch.cs
+  artifactKey: Guid(527b6c47d07541b0b4c9b6e3ffbd04a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/MultipartFormData/BoyerMooreSearch.cs using Guid(527b6c47d07541b0b4c9b6e3ffbd04a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92a1020a2e9e50585e1271699e9efb18') in 0.010611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/NetworkHelper.cs
+  artifactKey: Guid(d5b47689e57646eb8f3b26bfb95414ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/NetworkHelper.cs using Guid(d5b47689e57646eb8f3b26bfb95414ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '990f63d20f7f3d657c54f73a5799f479') in 0.009448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/MethodV2AutoEndpoint.cs
+  artifactKey: Guid(3553f10f47564105a8c7bc6d252b6436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/MethodV2AutoEndpoint.cs using Guid(3553f10f47564105a8c7bc6d252b6436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c421df1292e9edc779374efe8609880') in 0.010029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/de.bearo.restserver/Editor/AutoEndpoints/StaticContentAEInspector.cs
+  artifactKey: Guid(bc08a0c0940845b291ad4db535d99428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/AutoEndpoints/StaticContentAEInspector.cs using Guid(bc08a0c0940845b291ad4db535d99428) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '675be8f72ace34aa633e745090751ad8') in 0.010524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/de.bearo.restserver/Samples/BinaryResponse/BRBinaryResponse.cs
+  artifactKey: Guid(fb890e11f00386147b18b59158b8d55f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/BinaryResponse/BRBinaryResponse.cs using Guid(fb890e11f00386147b18b59158b8d55f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1238ce1dd7ddb0b30e92edb43f99760') in 0.008324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/de.bearo.restserver/Samples/LoadTestExample/ExampleLoadTestController.cs
+  artifactKey: Guid(ab6efdabf7896476382eb78c71538574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/LoadTestExample/ExampleLoadTestController.cs using Guid(ab6efdabf7896476382eb78c71538574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e84c0ba0e72b6e0da15215a7a9349f9') in 0.010338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/de.bearo.restserver/Samples/MethodAutoEndpointExample/MAExampleImpl.cs
+  artifactKey: Guid(3156c08d7f9fa454898501d921e8a7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/MethodAutoEndpointExample/MAExampleImpl.cs using Guid(3156c08d7f9fa454898501d921e8a7ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a7cdfb3daf7136aafb30ff7f4ed0345') in 0.008701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/de.bearo.restserver/Samples/ReverseProxyExample/ReverseProxyExample.unity
+  artifactKey: Guid(9f27cfee9ba5a4be7b21502a725f04b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/ReverseProxyExample/ReverseProxyExample.unity using Guid(9f27cfee9ba5a4be7b21502a725f04b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7a6525fda4aeb866070deaccf8ee48f') in 0.007774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/de.bearo.restserver/Samples/StaticContentExample/sample-app.zip.bytes
+  artifactKey: Guid(b677e9629346c49c3be44e8073ca7990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StaticContentExample/sample-app.zip.bytes using Guid(b677e9629346c49c3be44e8073ca7990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aee2b836e3340c8f3495a546bd50413a') in 0.012780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/de.bearo.restserver/Samples/StaticContentExample/StaticContentExample.unity
+  artifactKey: Guid(4af651aa5d9764d4e866fb1d4047e300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StaticContentExample/StaticContentExample.unity using Guid(4af651aa5d9764d4e866fb1d4047e300) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22228bac842346e388e6d19f034bcb99') in 0.008537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/de.bearo.restserver/Samples/PathParamExample/PPExample.unity
+  artifactKey: Guid(44dd58b0453d44fa0ab6764d960a5cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/PathParamExample/PPExample.unity using Guid(44dd58b0453d44fa0ab6764d960a5cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47b345db179dd1a7a5dcb43375e1e240') in 0.007611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleVSExample/SimpleVSExample.unity
+  artifactKey: Guid(a2da80021c8ad0248805aa22fbf8d161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleVSExample/SimpleVSExample.unity using Guid(a2da80021c8ad0248805aa22fbf8d161) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e3bcfbd9a4da382324104e28bdaa3be') in 0.007173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/de.bearo.restserver/Samples/StaticContentExample/simple-text-asset.txt
+  artifactKey: Guid(6d9b6764a54d420d901e076714b078f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StaticContentExample/simple-text-asset.txt using Guid(6d9b6764a54d420d901e076714b078f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e678e9065611754af4b8a4b75ecd9b79') in 0.012073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere3.mat
+  artifactKey: Guid(b5e6504275517e64d93a30352781ea61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere3.mat using Guid(b5e6504275517e64d93a30352781ea61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb137d83a7afcc994ad7ea93ca3e3cbb') in 0.065065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere1.mat
+  artifactKey: Guid(eb7bffabbb4a6644faacc3d48e4b5f80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere1.mat using Guid(eb7bffabbb4a6644faacc3d48e4b5f80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '416f4b252ac412a8dc962e5f3ac10918') in 0.022660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/de.bearo.restserver/Samples/ReverseProxyExample/ReverseProxyExample.cs
+  artifactKey: Guid(70c1621dd05c49578b595f76f809d14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/ReverseProxyExample/ReverseProxyExample.cs using Guid(70c1621dd05c49578b595f76f809d14e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03b22e8b3eb01ff0c6cc23374a450076') in 0.008834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/de.bearo.restserver/Samples/LoadTestExample/LoadTestExample.unity
+  artifactKey: Guid(90b6a91be9a7b428e920fea6704c39bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/LoadTestExample/LoadTestExample.unity using Guid(90b6a91be9a7b428e920fea6704c39bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61a015316202335d1611cc407a778a94') in 0.007201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/de.bearo.restserver/Samples/MaterialAutoEndpointExample/MAEMat.mat
+  artifactKey: Guid(a20add34313ec4092bea3c9382480cca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/MaterialAutoEndpointExample/MAEMat.mat using Guid(a20add34313ec4092bea3c9382480cca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1e894e2ee29b60f3cdbbe04ff98373f') in 0.015636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/de.bearo.restserver/Samples/RESTExample/RESTExample.unity
+  artifactKey: Guid(a154a86049ee8b447abd27f1fdef8635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/RESTExample/RESTExample.unity using Guid(a154a86049ee8b447abd27f1fdef8635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '210fe61def9673a1173e6b198a5d68ff') in 0.007146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/de.bearo.restserver/Samples/StaticContentExample/sample-app-src.zip
+  artifactKey: Guid(84e577680f8cb44f08dbaabad91b7c1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StaticContentExample/sample-app-src.zip using Guid(84e577680f8cb44f08dbaabad91b7c1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8c425da3e6447396b7a405f1c158611') in 0.007236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/de.bearo.restserver/Samples/PathParamExample/PPExample.cs
+  artifactKey: Guid(d942100ed1071490a97f50c92265914c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/PathParamExample/PPExample.cs using Guid(d942100ed1071490a97f50c92265914c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87683ee942910e6ba67110c17854fab8') in 0.008202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/de.bearo.restserver/Samples/LoadTestExample/RestServerLoadTest.jmx
+  artifactKey: Guid(a790e8c4c5c524390a756a290247ad8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/LoadTestExample/RestServerLoadTest.jmx using Guid(a790e8c4c5c524390a756a290247ad8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6c21595760fc55f23afb11e0ccb03c4') in 0.007815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/de.bearo.restserver/Runtime/HttpMethod.cs
+  artifactKey: Guid(9b7ab7bb6c3d4ab6afb24fab9582dccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/HttpMethod.cs using Guid(9b7ab7bb6c3d4ab6afb24fab9582dccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db9e533c4b29d16f62eb15033be3d5b6') in 0.009499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/TransformAutoEndpoint.cs
+  artifactKey: Guid(103dc4b18b26418ead41eb3dfeb3436c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/TransformAutoEndpoint.cs using Guid(103dc4b18b26418ead41eb3dfeb3436c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4d52ffae5bb04a9fac2882fcde94796b') in 0.008581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/IEMover.cs
+  artifactKey: Guid(850c08dfb4efe6a4d8183ade0d98ec16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/IEMover.cs using Guid(850c08dfb4efe6a4d8183ade0d98ec16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6626dd2669dbf31d0ff5fcc3363d817') in 0.008582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/de.bearo.restserver/Runtime/RestRequest.cs
+  artifactKey: Guid(7ab2d19347794bdf966552ffff56995b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/RestRequest.cs using Guid(7ab2d19347794bdf966552ffff56995b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7c5150a3680bd44dd24fcd7f8fe34a5') in 0.010088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/de.bearo.restserver/Runtime/WebSocket/WsSessionCollection.cs
+  artifactKey: Guid(e3db8ce6f01f4156b9a7945aaad2a932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/WebSocket/WsSessionCollection.cs using Guid(e3db8ce6f01f4156b9a7945aaad2a932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '858f97960517d0bf7caa9b00840fec69') in 0.008727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/de.bearo.restserver/Runtime/MultipartFormData/SimpleMFDParser.cs
+  artifactKey: Guid(1d9c05af94e141a6bf40280b2386a472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/MultipartFormData/SimpleMFDParser.cs using Guid(1d9c05af94e141a6bf40280b2386a472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32a140240d33b9abe0a745a824ecc4fb') in 0.009168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/LICENSE.txt
+  artifactKey: Guid(50777081afec4a9e92ed156dd22acfe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/LICENSE.txt using Guid(50777081afec4a9e92ed156dd22acfe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1aa8dc77fd0fda50dfb2d978a968def') in 0.013187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/package.json
+  artifactKey: Guid(2d0d53a413672ac43b6ec9b0970f815e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/package.json using Guid(2d0d53a413672ac43b6ec9b0970f815e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97fed15624d636e401c1357acbe7ebd5') in 0.012345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WssClient.cs
+  artifactKey: Guid(2cf377aa0f4b6a246833d433b958a813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WssClient.cs using Guid(2cf377aa0f4b6a246833d433b958a813) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c06ea655e245876954702efa7e155a9b') in 0.008743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/RequestHeaderHelper.cs
+  artifactKey: Guid(43b4bdf50b3d422aa439ad15cdb29222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/RequestHeaderHelper.cs using Guid(43b4bdf50b3d422aa439ad15cdb29222) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47cb27589266645993f4732253f2a8be') in 0.008872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/AbstractAutoEndpoint.cs
+  artifactKey: Guid(f840ba9ec7c24d11a355abb98317cc6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/AbstractAutoEndpoint.cs using Guid(f840ba9ec7c24d11a355abb98317cc6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e77c5f266320f6d6b830903fd077f6a1') in 0.009356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/RestRequestResponseLog.cs
+  artifactKey: Guid(1ad923bc1b4245dea2565199dd3fcdf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/RestRequestResponseLog.cs using Guid(1ad923bc1b4245dea2565199dd3fcdf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a010a86221e3bb4b64f3ba83fae14e2') in 0.008727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/TcpServer.cs
+  artifactKey: Guid(674317cedcfe8814c801c064e47eedb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/TcpServer.cs using Guid(674317cedcfe8814c801c064e47eedb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ddc8d976af4bd113a314d2c868342aa3') in 0.009109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/MaterialAutoEndpoint.cs
+  artifactKey: Guid(6f99027b05e345e4b1d6a3364da43881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/MaterialAutoEndpoint.cs using Guid(6f99027b05e345e4b1d6a3364da43881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc4288b751594d813a003ab075af96f8') in 0.009690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleFormData/SimpleFormData.cs
+  artifactKey: Guid(31dafb01a5e4b4d40aff5349960bb85c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleFormData/SimpleFormData.cs using Guid(31dafb01a5e4b4d40aff5349960bb85c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9cd85ebfc94f58c7764356eae032384') in 0.008563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/de.bearo.restserver/Samples/mDNSExample/mDNSExample.unity
+  artifactKey: Guid(78fcab6249d894f908110ef9f9675a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/mDNSExample/mDNSExample.unity using Guid(78fcab6249d894f908110ef9f9675a46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc14d1d7ff6468351909d165a41d3f22') in 0.007765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/RestServerProfilerCounters.cs
+  artifactKey: Guid(f1d4f0b8ecec43ad89d7d41c7396eda7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/RestServerProfilerCounters.cs using Guid(f1d4f0b8ecec43ad89d7d41c7396eda7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '031b92389c401ef459079bf6ad1a7441') in 0.008562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere4.mat
+  artifactKey: Guid(7b9f3e0ada45c7b4b96cf6f16f6f4511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere4.mat using Guid(7b9f3e0ada45c7b4b96cf6f16f6f4511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0f9343bccf09de1927457a650f47f2a') in 0.015786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/TransformAutoEndpointImpl.cs
+  artifactKey: Guid(09f3b84ff0b84ee8b9f8ca835ef1aad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/TransformAutoEndpointImpl.cs using Guid(09f3b84ff0b84ee8b9f8ca835ef1aad3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc9f5eef9bb1513a0e68754de19a6dd1') in 0.009402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Inspector/RestServerInspector.cs
+  artifactKey: Guid(91aedbc629154e2bb9d21c1e5560c842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Inspector/RestServerInspector.cs using Guid(91aedbc629154e2bb9d21c1e5560c842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48e63f54957759764341012c362e1a45') in 0.008413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/VisualScriptingConstants.cs
+  artifactKey: Guid(c4b2c26aa3d4450f85034a7f91f86b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/VisualScriptingConstants.cs using Guid(c4b2c26aa3d4450f85034a7f91f86b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '624b75e14066a9e14065bb08b47fab1a') in 0.009637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpsSession.cs
+  artifactKey: Guid(0e8cc751ffaccf3498fbae69182cad29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpsSession.cs using Guid(0e8cc751ffaccf3498fbae69182cad29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58a8457b6c7ea698702d81f31c51d50e') in 0.009203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/de.bearo.restserver/Runtime/LowLevelHttpSession.cs
+  artifactKey: Guid(848ab60e534944a4b5af50d230ad5a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/LowLevelHttpSession.cs using Guid(848ab60e534944a4b5af50d230ad5a1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83de0185a574b8fe49dda7eb021958c3') in 0.008365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/de.bearo.restserver/Samples/mDNSExample/mdns.zip
+  artifactKey: Guid(b3a99c74c440642699f7ed45294783a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/mDNSExample/mdns.zip using Guid(b3a99c74c440642699f7ed45294783a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27ddb8ce58f2838aa59526482d03484e') in 0.007814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/ResponseBuilder.cs
+  artifactKey: Guid(37a1bb788d7549ba97214382f90829fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/ResponseBuilder.cs using Guid(37a1bb788d7549ba97214382f90829fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d3cd73731853223f06d474c5cfe3260') in 0.009780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Endpoint.cs
+  artifactKey: Guid(ace88f27023e474dab6ec3550f700f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Endpoint.cs using Guid(ace88f27023e474dab6ec3550f700f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65c20484bdad6979e144c4e157bcedb6') in 0.008496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/de.bearo.restserver/Runtime/de.bearo.restserver.Runtime.asmdef
+  artifactKey: Guid(ad57d076086826e4fa24a3166cc75de7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/de.bearo.restserver.Runtime.asmdef using Guid(ad57d076086826e4fa24a3166cc75de7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4235c91a7958efd8e03a6565599cad6') in 0.013195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/StaticContentAutoEndpoint.cs
+  artifactKey: Guid(0ef03b3a1f1a4ea2893994a94e494fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/StaticContentAutoEndpoint.cs using Guid(0ef03b3a1f1a4ea2893994a94e494fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc53c73138d6e9d5661838aebee75fb9') in 0.009187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/DefaultRequestHandlerImpl.cs
+  artifactKey: Guid(440a9a33bc13453680114e8291509aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/DefaultRequestHandlerImpl.cs using Guid(440a9a33bc13453680114e8291509aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10bace9a9139cae02b3f2981ed328917') in 0.010469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestEndpointCollection.cs
+  artifactKey: Guid(1ff496ef172042f0935e2d9e17c38cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestEndpointCollection.cs using Guid(1ff496ef172042f0935e2d9e17c38cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56991b15d9d1832521773c3984865e55') in 0.008762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/AddHeaderCustomNodeDescriptor.cs
+  artifactKey: Guid(56f3513380054d83a2c8b8a3cfa847e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/AddHeaderCustomNodeDescriptor.cs using Guid(56f3513380054d83a2c8b8a3cfa847e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c56a2979c29617fb80eb2957f55b92e6') in 0.009125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestStreamingAssetsAutoEndpoint.cs
+  artifactKey: Guid(49fe4112176640a9a0b4529e2231cea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestStreamingAssetsAutoEndpoint.cs using Guid(49fe4112176640a9a0b4529e2231cea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06124fb07be5080fd3667bd6fc36b60c') in 0.009846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestSCHTextAsset.txt
+  artifactKey: Guid(fc3c8ac0e5f54525b4ae7c9804697ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestSCHTextAsset.txt using Guid(fc3c8ac0e5f54525b4ae7c9804697ccd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb104b79e508320b45b4c930703968be') in 0.012625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestRestRequest.cs
+  artifactKey: Guid(33ded8d420c145699eab5b6339558f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestRestRequest.cs using Guid(33ded8d420c145699eab5b6339558f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72a65c7883b110e69152a5d041eb28a6') in 0.008542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/Samples/StaticContentExample/StaticContentExampleHelper.cs
+  artifactKey: Guid(6123147eee0f44e758f30b0363e8dab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StaticContentExample/StaticContentExampleHelper.cs using Guid(6123147eee0f44e758f30b0363e8dab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6291213532e213227aa573ebc7cc0d0c') in 0.008606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestInternalRedirect.cs
+  artifactKey: Guid(7e9c70d68a8b4e548bcaac0e14250b6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestInternalRedirect.cs using Guid(7e9c70d68a8b4e548bcaac0e14250b6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ecd0459dfa260db345db73ce760ca23') in 0.009278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestSimpleMFDParser.cs
+  artifactKey: Guid(214ef0aa1db546e398dd7d0738d72f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestSimpleMFDParser.cs using Guid(214ef0aa1db546e398dd7d0738d72f8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93ff24c6ae5cd38e856f6812f1e97126') in 0.009072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamDeck/SDStreamDeckSphereHandler.cs
+  artifactKey: Guid(0057e5b81b5cc6c4ba40a6a12ff11548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamDeck/SDStreamDeckSphereHandler.cs using Guid(0057e5b81b5cc6c4ba40a6a12ff11548) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9bde803cc455353244337b8de9ca9a50') in 0.008632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestBasicUsage.cs
+  artifactKey: Guid(d6cf5251a46147b48b516ceeccfdf4ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestBasicUsage.cs using Guid(d6cf5251a46147b48b516ceeccfdf4ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e440603bce37320e4d6498ecae5b05f') in 0.008226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetHeadersNodeDescriptor.cs
+  artifactKey: Guid(d8e3f66453194740a327351fce66edea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetHeadersNodeDescriptor.cs using Guid(d8e3f66453194740a327351fce66edea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc580329c2082b99fd545e8c7c4e1239') in 0.009666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamDeck/SDSphereTemplateDespawner.cs
+  artifactKey: Guid(a0e9ae8bd2316944094a8287d4ffe82d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamDeck/SDSphereTemplateDespawner.cs using Guid(a0e9ae8bd2316944094a8287d4ffe82d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e6094270b4a3688eb5e22532242883f') in 0.009015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestSpecialHandlers.cs
+  artifactKey: Guid(4427edeb12e64e3e8b869ba10825fa82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestSpecialHandlers.cs using Guid(4427edeb12e64e3e8b869ba10825fa82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcbf1e1bba8da1a997902e22d32d880d') in 0.008396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestWebSocket.cs
+  artifactKey: Guid(98d4cfa9fcbf43a78ad399210ef3af86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestWebSocket.cs using Guid(98d4cfa9fcbf43a78ad399210ef3af86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a7530061d3c9e3cc043f19d48c4f9de') in 0.008532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/de.bearo.restserver/Samples/WebSocketExample/WSMover.cs
+  artifactKey: Guid(5232bdc2be6e1441c8f4f6ec8b73afeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/WebSocketExample/WSMover.cs using Guid(5232bdc2be6e1441c8f4f6ec8b73afeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa369ece1beb63efd153b10f1f6dfec9') in 0.009770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/de.bearo.restserver/Samples/TwitchOverlay/TwitchOverlay.unity
+  artifactKey: Guid(9619b3f12b0a8fe42a8c4a28453b4e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/TwitchOverlay/TwitchOverlay.unity using Guid(9619b3f12b0a8fe42a8c4a28453b4e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb9998f88ece842cd7a2f5df87dc48eb') in 0.007399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestPathParamHelper.cs
+  artifactKey: Guid(8c3a9d53ecf3475da14c9b6acbc444cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestPathParamHelper.cs using Guid(8c3a9d53ecf3475da14c9b6acbc444cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56d72ee07a019580722696634cfab25b') in 0.008403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestSimpleHeaderParser.cs
+  artifactKey: Guid(40d27b6d6edd4997bfa52859f1954e47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestSimpleHeaderParser.cs using Guid(40d27b6d6edd4997bfa52859f1954e47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ba4b9492e4d172293e823eac7a2ccfd') in 0.008721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestVisualScripting.cs
+  artifactKey: Guid(81a7e3414e119644bbd7f43ea1a6247a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestVisualScripting.cs using Guid(81a7e3414e119644bbd7f43ea1a6247a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a5c481a75c45912a0d977df77b1b82b') in 0.008410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestHelper.cs
+  artifactKey: Guid(afd4c86e03d84680becb6caf9b848e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestHelper.cs using Guid(afd4c86e03d84680becb6caf9b848e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c91cd925302860d94d19e351a6f9732') in 0.008281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/EndpointDefinitionNodeDescriptor.cs
+  artifactKey: Guid(d17802353710411ea0598c016dac5ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/EndpointDefinitionNodeDescriptor.cs using Guid(d17802353710411ea0598c016dac5ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca84ea6cdd5cbb435d8d16bd5a16a042') in 0.010807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/MaterialAutoEndpointTest.mat
+  artifactKey: Guid(7efbde7534b13804dac1ed1333a66bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/MaterialAutoEndpointTest.mat using Guid(7efbde7534b13804dac1ed1333a66bb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9102bd791a571787f3365f75a7d05040') in 0.014937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamDeck/SDGroundPlane.mat
+  artifactKey: Guid(16f6f6038c76e724eb9905327b68ea0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamDeck/SDGroundPlane.mat using Guid(16f6f6038c76e724eb9905327b68ea0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf3335e6d470890ea56ac233616bab12') in 0.016398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestRestServer.cs
+  artifactKey: Guid(2a139ea9639b426bae046a00dd2aaa65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestRestServer.cs using Guid(2a139ea9639b426bae046a00dd2aaa65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '134e212557944c536b5bb84633c468f9') in 0.008044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestUnityNetHelper.cs
+  artifactKey: Guid(8e7f6f82d64444c296723f87ce4120ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestUnityNetHelper.cs using Guid(8e7f6f82d64444c296723f87ce4120ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42f3d46b0712bfc892ad603d7ab6c106') in 0.008656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestVisualHttpHeaderExtension.cs
+  artifactKey: Guid(c28ee39ae0a2445b9390668829642ec6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestVisualHttpHeaderExtension.cs using Guid(c28ee39ae0a2445b9390668829642ec6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3636c9642f68659824e6a905435f0ce6') in 0.010168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestAutoEndpoint.cs
+  artifactKey: Guid(50376c0faba945deb28da7d7b39f0c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestAutoEndpoint.cs using Guid(50376c0faba945deb28da7d7b39f0c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58be8448316ca4d422a3f00a26986f8b') in 0.008476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/de.bearo.restserver/Samples/WebSocketExample/WebSocketExample.unity
+  artifactKey: Guid(b7c8f56746eb94be49da08a473ad06b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/WebSocketExample/WebSocketExample.unity using Guid(b7c8f56746eb94be49da08a473ad06b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0b712e468c660241637b862c1670ac5') in 0.008064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestThreadingHelper.cs
+  artifactKey: Guid(a5d1304b5758373479f8a87820d8cb24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestThreadingHelper.cs using Guid(a5d1304b5758373479f8a87820d8cb24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58c09d53c2c7cfc2cc463f20b1536f1c') in 0.008651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/FileCache.cs
+  artifactKey: Guid(8e604357887f87947a35b3a7ca030567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/FileCache.cs using Guid(8e604357887f87947a35b3a7ca030567) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae7b895ccaa78fd62d7d77b9d269e27e') in 0.009416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/VisualScriptingTestScene.unity
+  artifactKey: Guid(1a628fd81e54f8747a7ab6eedd686005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/VisualScriptingTestScene.unity using Guid(1a628fd81e54f8747a7ab6eedd686005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32d09f346c4e8839d37ae6253b633302') in 0.007586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/UnityNetHelper.cs
+  artifactKey: Guid(463e7f303e794fba8f674b3139e9a74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/UnityNetHelper.cs using Guid(463e7f303e794fba8f674b3139e9a74c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c91ed7793d265f8c05a9553f3f28b61') in 0.009162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/PathParamHelper.cs
+  artifactKey: Guid(7f397ef6495248979ecef512c3edac78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/PathParamHelper.cs using Guid(7f397ef6495248979ecef512c3edac78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0b727e3972edae6bdce129ecce01515') in 0.009829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpsServer.cs
+  artifactKey: Guid(0d5b82dd2d9aadd45bd6255995857404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpsServer.cs using Guid(0d5b82dd2d9aadd45bd6255995857404) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b95667ecdb3f469fc188e8a6ad7c2c10') in 0.008509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere1.mat
+  artifactKey: Guid(539eef15cbc2b924f86f81a692d71d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere1.mat using Guid(539eef15cbc2b924f86f81a692d71d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7fb0cb86f9e9b9387d1d18322a9fa7a') in 0.015888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetBodyNodeDescriptor.cs
+  artifactKey: Guid(3b606c7a39cc4d5f9c7ef5ef3d7e0155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetBodyNodeDescriptor.cs using Guid(3b606c7a39cc4d5f9c7ef5ef3d7e0155) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '418b014f82e4a790eefb2be04180e5cd') in 0.010662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/de.bearo.restserver/Runtime/HttpHeader.cs
+  artifactKey: Guid(f433d27342ed4ee7ac5e29da1efd47f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/HttpHeader.cs using Guid(f433d27342ed4ee7ac5e29da1efd47f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6da61341f14092550e4a0288e2376490') in 0.010943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/AccessLogDTO.cs
+  artifactKey: Guid(dbca6fe515604a30b4d1ea7d1e358764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/AccessLogDTO.cs using Guid(dbca6fe515604a30b4d1ea7d1e358764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3190a49352ba239c8f409ca9ada64f6a') in 0.008788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/de.bearo.restserver/Runtime/ThreadingHelper.cs
+  artifactKey: Guid(99e6373fe76f4c38b8533dc4c3a5f724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/ThreadingHelper.cs using Guid(99e6373fe76f4c38b8533dc4c3a5f724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96cd2029ecc0252e0582787586b200f3') in 0.009682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamDeck/SDBouncySphere.physicMaterial
+  artifactKey: Guid(2d664e21e7bd7c944adbce63cd72486d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamDeck/SDBouncySphere.physicMaterial using Guid(2d664e21e7bd7c944adbce63cd72486d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '581d1246d845793f07f1eee1cf3d98aa') in 0.018369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamingAssetsAutoEndpointExample/SAAExample.unity
+  artifactKey: Guid(456a4720422a2463fbf663a7f2bfd2dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamingAssetsAutoEndpointExample/SAAExample.unity using Guid(456a4720422a2463fbf663a7f2bfd2dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd69a9eb7a9e912038b501d895d1d7964') in 0.007640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestSimpleInterlock.cs
+  artifactKey: Guid(b679ee77211b41f3b92d6977545a5317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestSimpleInterlock.cs using Guid(b679ee77211b41f3b92d6977545a5317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd791caf234bdc6148e48697d5645e11') in 0.008309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/de.bearo.restserver/Samples/MethodAutoEndpointExample/MethodAutoEndpointExample.unity
+  artifactKey: Guid(cf1111440831e4003b739a7932c86867) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/MethodAutoEndpointExample/MethodAutoEndpointExample.unity using Guid(cf1111440831e4003b739a7932c86867) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '517584832fc249e009d231c63d0f208b') in 0.009170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/de.bearo.restserver/Samples/RESTExample/PositionModifier.cs
+  artifactKey: Guid(74c6575a5969b1f4da671a131ca6c764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/RESTExample/PositionModifier.cs using Guid(74c6575a5969b1f4da671a131ca6c764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3b2a2b9b2117c18b92b26133369bd40') in 0.009238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/de.bearo.restserver/Samples/UniWebView/UniWebView.unity
+  artifactKey: Guid(3f2cb1bcf271f4d558857dab81a2056d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/UniWebView/UniWebView.unity using Guid(3f2cb1bcf271f4d558857dab81a2056d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbdec9556027b29bbe61e8b7e5276016') in 0.007484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere4.mat
+  artifactKey: Guid(6304682d4d72810489cda86ce6e55af6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere4.mat using Guid(6304682d4d72810489cda86ce6e55af6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '105b93068c7880be830f6b63fa12eb37') in 0.015636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/AttributeAutoEndpoint.cs
+  artifactKey: Guid(306e526f1e874e888e19f526b4847fbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/AttributeAutoEndpoint.cs using Guid(306e526f1e874e888e19f526b4847fbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2606d98d9b7e0d4e4b22e7f577701fd5') in 0.009697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/MimeTypeDict.cs
+  artifactKey: Guid(bb1858cf40b14e7b8c8632a93a6835af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/MimeTypeDict.cs using Guid(bb1858cf40b14e7b8c8632a93a6835af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5bd11d9023190262bd26eba1a348379') in 0.009088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/de.bearo.restserver/Third Party Notices.md
+  artifactKey: Guid(855aec8143e94fc7b61dcefac2fec7a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Third Party Notices.md using Guid(855aec8143e94fc7b61dcefac2fec7a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a7ab97c9fb785a1d55528b773e02a88') in 0.012670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/de.bearo.restserver/Runtime/LowLevelSession.cs
+  artifactKey: Guid(51d14354cbae4d5894f9bfb0f82360a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/LowLevelSession.cs using Guid(51d14354cbae4d5894f9bfb0f82360a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2332d53d1a775d2e4d0daa5c8af772a8') in 0.008713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/de.bearo.restserver/Runtime/AutoEndpoints/StreamingAssetsAutoEndpoint.cs
+  artifactKey: Guid(aefb7cabf587466fafa8b5a338773b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/AutoEndpoints/StreamingAssetsAutoEndpoint.cs using Guid(aefb7cabf587466fafa8b5a338773b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4bd6c7772345e79cb3af59019853ee69') in 0.009790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/de.bearo.restserver/Samples/AttributeEndpointExample/AttributeEndpointExample.unity
+  artifactKey: Guid(531e4ea4a137744d9a81e15e2eaba3ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/AttributeEndpointExample/AttributeEndpointExample.unity using Guid(531e4ea4a137744d9a81e15e2eaba3ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f756d12b0b5d36c5ea3c4e6c60f3299f') in 0.007678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/Buffer.cs
+  artifactKey: Guid(c7e949754e03a1b4ba678d1244638f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/Buffer.cs using Guid(c7e949754e03a1b4ba678d1244638f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aeb29ddf68311d26918b819f170ad717') in 0.008940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/Nyan_cat_250px_frame.png
+  artifactKey: Guid(8933cb876e327fb44814a4b12055aa9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/Nyan_cat_250px_frame.png using Guid(8933cb876e327fb44814a4b12055aa9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ab2cde4d07864402b3924263d45eb6f') in 0.016821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleFormData/SimpleFormData.unity
+  artifactKey: Guid(d7be1e08b72384d4c9c1b0f04c73096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleFormData/SimpleFormData.unity using Guid(d7be1e08b72384d4c9c1b0f04c73096f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4be1ffb71b109e2b895e97c07f011f50') in 0.007809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetHeadersNode.cs
+  artifactKey: Guid(5ae9d436a26b49b8b017cd7636b4b7c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetHeadersNode.cs using Guid(5ae9d436a26b49b8b017cd7636b4b7c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e69c3ab8850f34eb0d58c3be2928b80') in 0.008799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetQueryParametersNode.cs
+  artifactKey: Guid(12e56a0b42044875a795237291764541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetQueryParametersNode.cs using Guid(12e56a0b42044875a795237291764541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf2671ed5d91a0894ba44c91f549d838') in 0.009559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualRestRequest.cs
+  artifactKey: Guid(14830e5c9f424915b5036b9352e4d449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualRestRequest.cs using Guid(14830e5c9f424915b5036b9352e4d449) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9da4498e9aabf72539c1c060ad83cc02') in 0.008830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/EndpointDefinitionNode.cs
+  artifactKey: Guid(18ddff9e7a444396b5af59f689964022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/EndpointDefinitionNode.cs using Guid(18ddff9e7a444396b5af59f689964022) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf34706f49f2026c72c00c17e6bccb12') in 0.009423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/TransformAutoEndpointNode.cs
+  artifactKey: Guid(05a7ba98b2564df4af47275e3a447c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/TransformAutoEndpointNode.cs using Guid(05a7ba98b2564df4af47275e3a447c11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24571f2f048b094e1cfe571ea01ffd49') in 0.009284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/SetHeaderEnumNode.cs
+  artifactKey: Guid(e146634e405949078df75ce1180d21ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/SetHeaderEnumNode.cs using Guid(e146634e405949078df75ce1180d21ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f48de341635876c90b1745127b5ca3aa') in 0.008624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/SetHeaderCustomNode.cs
+  artifactKey: Guid(0743187e40f1403384d68e0fef8f4d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/SetHeaderCustomNode.cs using Guid(0743187e40f1403384d68e0fef8f4d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0962a826c969b8747ccb180ac4de29b2') in 0.010200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetBodyNode.cs
+  artifactKey: Guid(72aa61a1b6ba48b89ed7a42c8c8ef135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetBodyNode.cs using Guid(72aa61a1b6ba48b89ed7a42c8c8ef135) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55cc3d2f069afbf03e83fdec54fd9975') in 0.008949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetQueryParametersSimpleNode.cs
+  artifactKey: Guid(3085a580df474b5cbe5726a940cb6120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/GetQueryParametersSimpleNode.cs using Guid(3085a580df474b5cbe5726a940cb6120) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45e58335e9ad809febbf26c8b74b6da2') in 0.008776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualEndpointType.cs
+  artifactKey: Guid(23db71ece86645afa528998315e34e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualEndpointType.cs using Guid(23db71ece86645afa528998315e34e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb0cad04d478e252ffb380d4db3f8682') in 0.008856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualHttpHeader.cs
+  artifactKey: Guid(b19ec1cacf1647ed94ba2a3379f3f9db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualHttpHeader.cs using Guid(b19ec1cacf1647ed94ba2a3379f3f9db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b16f245cdc4506c09812899b63379806') in 0.009895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetQueryParametersSimpleNodeDescriptor.cs
+  artifactKey: Guid(ba4f243c383a4cae9bfbe892ad18c06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetQueryParametersSimpleNodeDescriptor.cs using Guid(ba4f243c383a4cae9bfbe892ad18c06a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4dd37f8d62e7cb1294570e13892b6930') in 0.008814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/RemoveHeaderCustomNodeDescriptor.cs
+  artifactKey: Guid(8ca707aa156f4ab2baa032af79791e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/RemoveHeaderCustomNodeDescriptor.cs using Guid(8ca707aa156f4ab2baa032af79791e55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a48318fa76c636f2b7ee75ee7c8200ad') in 0.009391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/RestServerReferenceNode.cs
+  artifactKey: Guid(efe7a1649d5d44a29db3c7dcc6486748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/RestServerReferenceNode.cs using Guid(efe7a1649d5d44a29db3c7dcc6486748) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bed77841af895e1b93504a3963a218f') in 0.008984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Send/SendResponseNodeDescriptor.cs
+  artifactKey: Guid(5de99e67e3a1492eaf143ab8a11335de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Send/SendResponseNodeDescriptor.cs using Guid(5de99e67e3a1492eaf143ab8a11335de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4f53fba9b6fb1ea01352ce3323cb191') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/SetHeaderEnumNodeDescriptor.cs
+  artifactKey: Guid(98ece8496eb440f78b37bc747604832c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/SetHeaderEnumNodeDescriptor.cs using Guid(98ece8496eb440f78b37bc747604832c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b89e0abd3e6753508b6d0932b3436823') in 0.009812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/TransformAutoEndpointNodeDescriptor.cs
+  artifactKey: Guid(2b69cd0d5b9a4ed5a6684a785a5bd3d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/TransformAutoEndpointNodeDescriptor.cs using Guid(2b69cd0d5b9a4ed5a6684a785a5bd3d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5db4ee38a6bfb5f63046312b1339534b') in 0.009305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/RemoveHeaderCustomNode.cs
+  artifactKey: Guid(6633df385c1a42a1a5acb2e1cf61d859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/RemoveHeaderCustomNode.cs using Guid(6633df385c1a42a1a5acb2e1cf61d859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6b88cd92ea5bf13bbe0b8a523262933') in 0.009272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Send/SendResponseNode.cs
+  artifactKey: Guid(3ad50bd65f1047dcaf5ea5d9ed4e7af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Send/SendResponseNode.cs using Guid(3ad50bd65f1047dcaf5ea5d9ed4e7af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76137611ce43a2a31245abc1fb9ed15c') in 0.009494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/AddHeaderCustomNode.cs
+  artifactKey: Guid(411b61efcf7745448f5ac561de01228f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/AddHeaderCustomNode.cs using Guid(411b61efcf7745448f5ac561de01228f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9812f09ca9707a6ceeb8d0a6f2a57be2') in 0.008839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/RestServerReferenceNodeDescriptor.cs
+  artifactKey: Guid(3044e2beda964a1da447df74fc7ca7d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/RestServerReferenceNodeDescriptor.cs using Guid(3044e2beda964a1da447df74fc7ca7d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'be8dd3e34b43596476055a09be41e2d0') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualEndpointDescription.cs
+  artifactKey: Guid(dd89c0e2b2d249729e7840f9056f7015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Entity/VisualEndpointDescription.cs using Guid(dd89c0e2b2d249729e7840f9056f7015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f217cdbceda685493ca26170cabe3d6') in 0.011684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestHeaderBuilder.cs
+  artifactKey: Guid(4d74af45016e475dab2d5b222da4af5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestHeaderBuilder.cs using Guid(4d74af45016e475dab2d5b222da4af5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9061c4392c54ef6b46ec4b4a7a90f3c4') in 0.009387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestStaticContentAutoEndpoint.cs
+  artifactKey: Guid(164ab25f15da4f7c8137ea6f1e6d7c58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestStaticContentAutoEndpoint.cs using Guid(164ab25f15da4f7c8137ea6f1e6d7c58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc74436ade73816404a986908e2de831') in 0.008752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleFormData/SimpleFormDataMaterial.mat
+  artifactKey: Guid(891f2146c17e349b39ad27de5b9a00e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleFormData/SimpleFormDataMaterial.mat using Guid(891f2146c17e349b39ad27de5b9a00e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13b3de638ea29beb191b0d979d3fa9ba') in 0.017942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/de.bearo.restserver/Runtime/WebsocketMessage.cs
+  artifactKey: Guid(52487ae0003d4346a14fccbb3d3ef9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/WebsocketMessage.cs using Guid(52487ae0003d4346a14fccbb3d3ef9d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e5ef6e3b288a2d649bf2fef97d5f4c4') in 0.008764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/PathHelper.cs
+  artifactKey: Guid(9ecc8db836a64a4d916aebd7f6ac264d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/PathHelper.cs using Guid(9ecc8db836a64a4d916aebd7f6ac264d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d3b455d86a3b574bcc8de184a0e8825') in 0.008910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Event/IncomingRequestEvent.cs
+  artifactKey: Guid(fcf2cdb4dd5547838b9e26a796e7edac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Event/IncomingRequestEvent.cs using Guid(fcf2cdb4dd5547838b9e26a796e7edac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adbf765d9eb08aa1c9445b3c3d1d73c9') in 0.009871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/SetHeaderCustomNodeDescriptor.cs
+  artifactKey: Guid(65803bc946024bd68b617a5829679441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/SetHeaderCustomNodeDescriptor.cs using Guid(65803bc946024bd68b617a5829679441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28af3d7e39a3e4b2d2204450d560e109') in 0.009273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestPathHelper.cs
+  artifactKey: Guid(ccff03c99bcc4872abaf814c687a7352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestPathHelper.cs using Guid(ccff03c99bcc4872abaf814c687a7352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01f36c1837870319e1acca9b6d76aee1') in 0.008973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/de.bearo.restserver/Runtime/LowLevelServer.cs
+  artifactKey: Guid(76380d552c6445309d5e7ddde3d74093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/LowLevelServer.cs using Guid(76380d552c6445309d5e7ddde3d74093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df48c30bbd36aedbe893e8b671d7c6b1') in 0.009118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/MaterialAutoEndpointNodeDescriptor.cs
+  artifactKey: Guid(5485df2055cc4ee4baa3061e56361b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/MaterialAutoEndpointNodeDescriptor.cs using Guid(5485df2055cc4ee4baa3061e56361b8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f09ac639507590a16f5ffdad7ec61a0a') in 0.009159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/FlowExtension.cs
+  artifactKey: Guid(70ce17c4b3494b30849cc270f2e75d2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/FlowExtension.cs using Guid(70ce17c4b3494b30849cc270f2e75d2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '796bc24458ea2042586daeb0a75fef10') in 0.009869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/de.bearo.restserver/Samples/BinaryResponse/BinaryResponse.unity
+  artifactKey: Guid(bd788df697ca8f747bc17bda25193b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/BinaryResponse/BinaryResponse.unity using Guid(bd788df697ca8f747bc17bda25193b95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6dd3692dc22d63320dcbbe9acad193d') in 0.007914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/Utilities.cs
+  artifactKey: Guid(277be94a1af67a143b0f0fe24ca20f4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/Utilities.cs using Guid(277be94a1af67a143b0f0fe24ca20f4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5b36a54ce2934d12d278b7e4fdbc93e') in 0.009379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/de.bearo.restserver/Samples/UniWebView/ExampleUWVController.cs
+  artifactKey: Guid(7fab604f3273e49329fe7890b26af437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/UniWebView/ExampleUWVController.cs using Guid(7fab604f3273e49329fe7890b26af437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35c3659a7c1d62b71513da06d3c563df') in 0.009291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere3.mat
+  artifactKey: Guid(4cdc9f5c95e63f54a86ac9199a06df5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere3.mat using Guid(4cdc9f5c95e63f54a86ac9199a06df5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e775a38621bb68227b6662396ff0a920') in 0.016087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/AddHeaderEnumNodeDescriptor.cs
+  artifactKey: Guid(4b46a44ed81a4119b507d496dd8e962c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/AddHeaderEnumNodeDescriptor.cs using Guid(4b46a44ed81a4119b507d496dd8e962c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd520c7187dd203e33bbf665b7d121f6') in 0.009518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestResponseBuilder.cs
+  artifactKey: Guid(14f40f7814d64f76807267314cc41919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestResponseBuilder.cs using Guid(14f40f7814d64f76807267314cc41919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f69b34e00c03d37896c18f083f4526ce') in 0.008559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/CommonDescriptor.cs
+  artifactKey: Guid(a30c19ded55f4919bf330f481488213f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/CommonDescriptor.cs using Guid(a30c19ded55f4919bf330f481488213f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd77002da06417a2d3581aad5d439aa9') in 0.009877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Event/IncomingRequestEventDescriptor.cs
+  artifactKey: Guid(c14269bd365a491f8b0ad73109a6c040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Event/IncomingRequestEventDescriptor.cs using Guid(c14269bd365a491f8b0ad73109a6c040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '464058573ebd2d09e2fdc6eb7f59234b') in 0.009236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere2.mat
+  artifactKey: Guid(ba40371aa816b4e4987284dde64b7beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleVSExample/SVSESphere2.mat using Guid(ba40371aa816b4e4987284dde64b7beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a921d7023969fc3e36829d88b16924c5') in 0.015975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WebSocket.cs
+  artifactKey: Guid(1df9b88313b4a574d86aa3e6283181c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WebSocket.cs using Guid(1df9b88313b4a574d86aa3e6283181c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e201eeca80083063eaaad096ddadfc74') in 0.009314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamDeck/SDStreamDeck.unity
+  artifactKey: Guid(bca775221fc35ad4abd8d973499a0a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamDeck/SDStreamDeck.unity using Guid(bca775221fc35ad4abd8d973499a0a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd19147dd95e5b100abd15c72d8b02e7f') in 0.008037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/HeaderBuilder.cs
+  artifactKey: Guid(6379f7f0b7dc447491fe8b33d623ce2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/HeaderBuilder.cs using Guid(6379f7f0b7dc447491fe8b33d623ce2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a1ec65efcda5f8fda8de9de279b3358') in 0.008957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/de.bearo.restserver/Runtime/Helper/SimpleInterlock.cs
+  artifactKey: Guid(e7b8212c5bb3425f912f8df20693f915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/Helper/SimpleInterlock.cs using Guid(e7b8212c5bb3425f912f8df20693f915) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63cc23b7e53f2cb4586ba413a9a19a75') in 0.009770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpResponse.cs
+  artifactKey: Guid(0b9c6349279e1ca42b879eb4254ceb4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpResponse.cs using Guid(0b9c6349279e1ca42b879eb4254ceb4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '818f265f064c04bee1682727cc84b51b') in 0.008848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/RemoveHeaderEnumNode.cs
+  artifactKey: Guid(057ad2323d4c4ede8f2d492485086b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/RemoveHeaderEnumNode.cs using Guid(057ad2323d4c4ede8f2d492485086b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba4c43c01858e32b16b15ea0baa8a891') in 0.008666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/de.bearo.restserver/Samples/StreamDeck/SDSphere.mat
+  artifactKey: Guid(1e660c1a5e79a6341a1a9e4f55cd25a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/StreamDeck/SDSphere.mat using Guid(1e660c1a5e79a6341a1a9e4f55cd25a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b26dd4b6e25ad54d2577a2ada1beecbb') in 0.016026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/TcpSession.cs
+  artifactKey: Guid(6ae4da5b8a804e4498bfcb70a074e5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/TcpSession.cs using Guid(6ae4da5b8a804e4498bfcb70a074e5d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '902999a611d88f7b51c90797840135fd') in 0.008298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/de.bearo.restserver/Samples/UniWebView/CubeColor.mat
+  artifactKey: Guid(f40ab8c03732e4e63962785dcadab69f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/UniWebView/CubeColor.mat using Guid(f40ab8c03732e4e63962785dcadab69f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd89c0cff7a8ff8e5b17b645d537ac516') in 0.014653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpEncoder.cs
+  artifactKey: Guid(3267478dc8bb474eb0c648fc09c06ffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpEncoder.cs using Guid(3267478dc8bb474eb0c648fc09c06ffb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1e79a79b083bca292ee4c5bc74bb283') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/TestSCHZipAsset.zip.bytes
+  artifactKey: Guid(4882a04df49c849e8bb767c5599a0e41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/TestSCHZipAsset.zip.bytes using Guid(4882a04df49c849e8bb767c5599a0e41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d82732e5003a1660f511a6f1463fa6d') in 0.012466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/MaterialAutoEndpointNode.cs
+  artifactKey: Guid(74447a0012c6427fbd323b6c3cd131f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/MaterialAutoEndpointNode.cs using Guid(74447a0012c6427fbd323b6c3cd131f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea7f83c906db3ba2262e93851f8ecd67') in 0.008250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpsClient.cs
+  artifactKey: Guid(6e09dd64032191246b13b330b57f88f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/HttpsClient.cs using Guid(6e09dd64032191246b13b330b57f88f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e89db9dc5feab3ac58cb1e383b21ae3f') in 0.008687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/IWebSocket.cs
+  artifactKey: Guid(f67f7069b626c284c87103105ffab2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/IWebSocket.cs using Guid(f67f7069b626c284c87103105ffab2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed6d6a44f8fd07b5b05b11abbdaf13b3') in 0.009600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/SslSession.cs
+  artifactKey: Guid(c9004ad6ceca2e14a9e2bda76d1a6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/SslSession.cs using Guid(c9004ad6ceca2e14a9e2bda76d1a6f02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67da0dd1fd0c2a871b4dff747f6240e8') in 0.008610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/TcpClient.cs
+  artifactKey: Guid(b7acf4e21c3a08b419a2268c49bff2d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/TcpClient.cs using Guid(b7acf4e21c3a08b419a2268c49bff2d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '038c9740413d3ca3350f351c7060269f') in 0.008433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/de.bearo.restserver/Samples/AttributeEndpointExample/AEndpointImpl.cs
+  artifactKey: Guid(07b4be9baa2864630a39b732591403ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/AttributeEndpointExample/AEndpointImpl.cs using Guid(07b4be9baa2864630a39b732591403ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06b8f6f701c1a019751a22c063a949c1') in 0.008887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/RemoveHeaderEnumNodeDescriptor.cs
+  artifactKey: Guid(24352d50687e419fa3c8168040a0ccbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/RemoveHeaderEnumNodeDescriptor.cs using Guid(24352d50687e419fa3c8168040a0ccbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db229f49290b96d7972a14721113a159') in 0.008975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/de.bearo.restserver/Samples/MaterialAutoEndpointExample/MaterialAutoEndpointExample.unity
+  artifactKey: Guid(78cd6ae820c4f4d4eaa2d0c5198d6717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/MaterialAutoEndpointExample/MaterialAutoEndpointExample.unity using Guid(78cd6ae820c4f4d4eaa2d0c5198d6717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'caa8255e7fddd2308400cd87e2604247') in 0.007676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/de.bearo.restserver/Samples/mDNSExample/ExampleMDNSController.cs
+  artifactKey: Guid(c615fd5031484d7fa4d09323b76a7578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/mDNSExample/ExampleMDNSController.cs using Guid(c615fd5031484d7fa4d09323b76a7578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '906825ca92865414fe551ae8a97df8f0') in 0.008280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/AddHeaderEnumNode.cs
+  artifactKey: Guid(58e90f02b2aa4212a254bd0d9476cfc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/VisualScripting/Nodes/AddHeaderEnumNode.cs using Guid(58e90f02b2aa4212a254bd0d9476cfc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98eab4290eec384cc04afbf383edaad7') in 0.009425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere2.mat
+  artifactKey: Guid(95caeb81fe9b5614e98e070e572fc519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/InterlockExample/TOSphere2.mat using Guid(95caeb81fe9b5614e98e070e572fc519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e81056699014abef5bf99dddd7fa93ce') in 0.015166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/de.bearo.restserver/Editor/icon-rest-server.png
+  artifactKey: Guid(f9011fef8bda4cfeab1cce0eadc8631f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/icon-rest-server.png using Guid(f9011fef8bda4cfeab1cce0eadc8631f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df92e319814896b291e14bd1ab034470') in 0.030306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/de.bearo.restserver/Samples/mDNSExample/mdns.txt
+  artifactKey: Guid(b96fd5b87129409090cccc6a7d30372d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/mDNSExample/mdns.txt using Guid(b96fd5b87129409090cccc6a7d30372d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c0b540b4b983153b7979dd6f6b223604') in 0.012439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/de.bearo.restserver/Tests/Runtime/Runtime.asmdef
+  artifactKey: Guid(3871bc5aaf124c44da4afa11be938a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Tests/Runtime/Runtime.asmdef using Guid(3871bc5aaf124c44da4afa11be938a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acd04e494a6748d4327f2315e277b109') in 0.013042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WsSession.cs
+  artifactKey: Guid(88225d8c2bb8c8340935b5fce7c655e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WsSession.cs using Guid(88225d8c2bb8c8340935b5fce7c655e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da762632802f7e73861bc0007d353a54') in 0.008672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/de.bearo.restserver/Runtime/NetCoreServer/WssServer.cs
+  artifactKey: Guid(c001806dba31c9342b1d4479b56798fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/NetCoreServer/WssServer.cs using Guid(c001806dba31c9342b1d4479b56798fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f006a0842cc76150a068041fa339a744') in 0.008774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/de.bearo.restserver/Editor/AutoEndpoints/AttributeAEInspector.cs
+  artifactKey: Guid(7e73bd515fc944b591328b6965e90783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/AutoEndpoints/AttributeAEInspector.cs using Guid(7e73bd515fc944b591328b6965e90783) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '538e93b34ab221dddd9d4f120ac74f28') in 0.009699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetQueryParametersNodeDescriptor.cs
+  artifactKey: Guid(a713e5046a4043608c577090c16ebfbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Editor/VisualScripting/Nodes/GetQueryParametersNodeDescriptor.cs using Guid(a713e5046a4043608c577090c16ebfbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c7ebe575cf7bcdcaf399f77fb4925dc') in 0.008915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleVSExample/Nyan_cat_250px_frame.png
+  artifactKey: Guid(11bd0f42f2a43a340aae3b8b4af1ce9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleVSExample/Nyan_cat_250px_frame.png using Guid(11bd0f42f2a43a340aae3b8b4af1ce9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1574b288e87c54647337255f6c537760') in 0.016814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/de.bearo.restserver/Samples/SimpleFormData/index.html.bytes
+  artifactKey: Guid(d492527123ad4076a6f2c8abe6371267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Samples/SimpleFormData/index.html.bytes using Guid(d492527123ad4076a6f2c8abe6371267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72e8142b824b89aca263066ba627a47a') in 0.012488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/de.bearo.restserver/Runtime/MimeType.cs
+  artifactKey: Guid(662848c96e144d889be7521d1a0c0ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/de.bearo.restserver/Runtime/MimeType.cs using Guid(662848c96e144d889be7521d1a0c0ae4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29a0552c233191537f7d4f84c464e375') in 0.028030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
